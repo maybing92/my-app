@@ -1,12 +1,12 @@
 import React from 'react'
 import Main from '../components/section/Main'
 
-const Youtube = () => {
+const playlist = () => {
     return (
         <Main>
-            Youtube
+            playlist
         </Main>
     )
 }
 
-export default Youtube
+export default Playlist
