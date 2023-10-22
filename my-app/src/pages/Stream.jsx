@@ -1,9 +1,14 @@
 import React from 'react'
+import Main from '../components/section/Main'
 
-const Port = () => {
+const Stream = () => {
     return (
-        <div>Port</div>
+        <Main 
+        title = "스트리머"
+        description="스트리머 영상">
+        Stream
+    </Main>
     )
 }
-    
-export default Port
+
+export default Stream

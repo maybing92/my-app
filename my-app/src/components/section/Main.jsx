@@ -3,13 +3,14 @@ import { Helmet, HelmetProvider } from 'react-helmet-async'
 
 import Header from './Header'
 import Footer from './Footer'
+import Search from './Search'  // 추가
 
 const Main = ( props ) => {
     return (
         <HelmetProvider>
             <Helmet 
-                titleTemplate="%s | May Youtube" 
-                defaultTitle="May Youtube" 
+                titleTemplate="%s | Webs Youtube" 
+                defaultTitle="Webs Youtube" 
                 defer={false}
             >
                 {props.title && <title>{props.title}</title>}
@@ -18,9 +19,12 @@ const Main = ( props ) => {
 
             <Header />
             <main id="main" role="main">
+                <Search />   
                 {props.children}
             </main>
             <Footer />
         </HelmetProvider>
     )
 }
+
+export default Main

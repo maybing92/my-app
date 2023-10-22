@@ -1,11 +1,13 @@
 import React from 'react'
 import Main from '../components/section/Main'
 
-const playlist = () => {
+const Playlist = () => {
     return (
-        <Main>
-            playlist
-        </Main>
+        <Main 
+        title = "Playlist"
+        description="듣고 또 듣고">
+        Playlist
+    </Main>
     )
 }
 

@@ -1,12 +1,14 @@
 import React from 'react'
 import Main from '../components/section/Main'
 
-const Playlist = () => {
+const knot = () => {
     return (
-        <Main>
-            Playlist
-        </Main>
+        <Main 
+        title = "Knot"
+        description="매듭처럼 얽힌 실타래">
+        Knot
+    </Main>
     )
 }
 
-export default Playlist
+export default knot

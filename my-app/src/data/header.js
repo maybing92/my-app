@@ -17,39 +17,34 @@ export const headerMenus = [
         src: "/"
     },
     {
-        title: "Playlist",
+        title: "playlist",
         icon: <CiHeadphones />,
         src: "/playlist"
     },
     {
-        title: "LUV IT",
+        title: "luvit",
         icon: <CiHeart />,
         src: "/luvit"
     },
     {
-        title: "Knot",
+        title: "knot",
         icon: <CiLink />,
         src: "/knot"
     },
     {
-        title: "Class",
+        title: "class",
         icon: <CiPen />,
         src: "/class"
     },
     {
-        title: "Tips",
+        title: "tips",
         icon: <CiPickerHalf />,
         src: "/tips"
     },
     {
-        title: "Nokduro",
+        title: "stream",
         icon: <CiDesktopMouse1 />,
         src: "/stream"
-    },
-    {
-        title: "유튜브",
-        icon: <CiYoutube />,
-        src: "/youtube"
     },
 ];
 
